@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Finbit - Stock Investment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+
+    <!--NAVBAR-->
+
+                  <nav class="container-fluid navbar navbar-expand-lg sticky-top mt-3 ">
+                      <div class="container">
+                        <a class="navbar-brand theme-text" href="#menu">Finbit</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                          <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Finbit</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          </div>
+                            <div class="offcanvas-body">
+                          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                              <a class="nav-link act" aria-current="page" href="#menu">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#super">Services</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#about">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#contact">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link me-2" href="#" onclick="alert('Stay Tuned For More!')">Sign Up</a>
+                            </li>
+                          </ul>
+                            <button class="btn fw-bold" type="button" onclick="alert('Stay Tuned For More!')">Log In</button>
+                        </div>
+                      </div>
+                  </nav>
+            <!--END-->
+                
+                
+
+            <!--HERO-->
+            <div id="menu"></div>
+            <section class="hero">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 middle">
+                            <div class="copy">
+                                <div class="text-hero-bold">
+                                    <h1 class="text-black fw-bold display-4">Your Best Way of <span class="theme-text">Investment</span></h1>
+                                </div>
+                                <div class="text-hero-regular text-large mt-5">Finbit is an application for those of you who want to discuss,
+                                    stock analysis and investment in one place.
+                                </div>
+                                <div>
+                                    <button class="btn btn-lg mt-5 fw-bold ps-5 pe-5 pt-2 pb-2" type="button">INVEST NOW</button>
+                                </div>
+                                <div class="mt-5">
+                                  <img class="img-store" src="applestore.png" alt="">
+                                  <img class="img-store" src="gplay.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 align-self-center">
+                            <img src="img-hero.png" class="w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--END-->
+
+          
+            <!--CAROUSEL-->
+          <div>
+            <section class="slider">
+              <div class="container">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner ">
+                    <div class="carousel-item active">
+                      <div class="carousel-caption pt-5">
+                        <h3 class="fw-bold display-5 theme-text">Unlocking the Future</h3>
+                        <p class="pt-3 text-hero-regular">Charting a Path to Prosperity</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="carousel-caption pt-5">
+                        <h3 class="fw-bold display-5 theme-text"  >Wealth Whirlwind</h3>
+                        <p class="pt-3 text-hero-regular">Growing Profit Potential</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="carousel-caption pt-5">
+                        <h3 class="fw-bold display-5 theme-text">Investment</h3>
+                        <p class="pt-3 text-hero-regular">Invest today, prosper tomorrow</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </section>
+        </div>
+        <!--END-->
+
+        <!--ABOUT US-->
+        <div id="about"></div>
+        <section class="about-us" data-aos="fade-up" data-aos-duration="1000">
+          <div class="container">
+              <div class="row">
+                <div class="content-right col-md-7">
+                  <div class="copy">
+                      <div class="text-hero-bold align-self-center">
+                          <h1 class="text-black fw-bold display-5 mb-4">What is Finbit?</h1>
+                      </div>
+                      <div class="text-hero-regular text-large">Finbit is an Indonesia based equity investment company. Founded in 2003 by Nurrahma Putri Haula and Faras Sakha Muhammad Santoso. Now, Finbit has grown and has many investors in Indonesia, Malaysia and Singapore and many more.
+                      </div>
+                      
+                  </div>
+              </div>
+
+                <div class="col-md-5 align-self-center">
+                  <img src="img-aboutus.png" class="w-100" alt="">
+              </div> 
+              </div>
+          </div>
+         </section>
+
+        <section class="content-vision"  data-aos="fade-up" data-aos-duration="1000">
+          <div class="container">
+              <div class="row">
+                <div class="col-md-5">
+                  <img src="img-vision.jpg" class="w-100" alt="">
+              </div>
+  
+                  <div class="content-right col-md-7">
+                      <div class="copy">
+                          <div class="text-hero-bold align-self-center">
+                              <h1 class="text-black fw-bold display-5 mb-4">Our Vision</h1>
+                          </div>
+                          <div class="text-hero-regular text-large ">Our vision is to become a trusted advisor and intermediary for customers in determining financial strategies in the capital market. Finbit also provides professional services that can safeguard the interests of our customers.
+                          </div>
+                          
+                      </div>
+                  </div>
+                  
+              </div>
+          </div>
+      </section>
+      <!--END-->
+
+      <!--SUPERIORITY OF FINBIT-->
+        <div class="container">
+          <div id="super"></div>
+          <div class="fw-bold display-5 mb-3 text-center" data-aos="fade-in">
+            Superiority of Finbit
+          </div>
+          <section class="content-card" data-aos="fade-up" data-aos-duration="1000">
+          <div class="container d-flex cards-wrapper">
+            <div class="row gy-3">
+              <div class="col-md-4">
+                <div class="card" >
+                  <img src="img-informative.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text fw-bold text-med ">Informative</p>
+                    <p class="card-text text-sm text-hero-regular">Get good investment ideas from the results of discussions and stock analysis of experienced investors. </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card" >
+                  <img src="img-faster.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text fw-bold text-med ">Faster</p>
+                    <p class="card-text text-sm text-hero-regular ">Information spreads faster with the help of the Finbit community. With Finbit, you will be more updated with the latest information.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card" >
+                  <img src="img-pro.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text fw-bold text-med ">More Pro</p>
+                    <p class="card-text text-sm text-hero-regular">Invest more pro with your friends and family. Share your strategies to complement each other and enjoy the results together.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--END-->
+
+          <!--COMMISSION FEE-->
+          <section class="content-fee" data-aos="fade-in" data-aos-duration="800">
+            <div class="container">
+            <div>
+              <div class="text-commission-fee fw-bold display-5 text-center">
+                Commission Fee
+              </div>
+            </div>
+
+            <div class="container">
+                <div class="row justify-content-evenly gy3">
+                  <div class="content-right col-md-2">
+                    <div class="copy">
+                      <div class="text-fee mb-4 text-hero-regular">Fee Buy</div>
+                        <div>
+                            <h1 class="text-number fw-bold display-1">0,10%</h1>
+                        </div>  
+                    </div>
+                </div>
+
+                    <div class="content-right col-md-2 ">
+                        <div class="copy">
+                          <div class="text-fee mb-4 text-hero-regular">Fee Sale
+                          </div>                   
+                            <div>
+                                <h1 class="text-number fw-bold display-1">0,20%</h1>
+                            </div>  
+                        </div>
+                    </div>        
+                </div>
+            </div>
+            <div>
+              <p class="mt-4 text-hero-regular"><span class="fw-bold">Note: </span>Including brokerage fee, levy fee (BEI, KPEI, KSEI) 0.054%,
+                <br> Value-added tax (VAT) on broker fees 17%.</p>
+            </div>
+          </div>
+        </section>
+        <!--END-->
+
+
+        <!--CONTENT WORDS-->
+        <section class="content-text">
+          <div class="container">
+          <div class="text-center">
+            <p class="fw-bold display-5 mb-5">User-Friendly Interface</p>
+            <p class="text-large text-hero-regular" data-aos="fade-up" data-aos-duration="1000">Investing shouldn't be complicated. Our intuitive and user-friendly platform empowers investors of all levels to navigate the stock market effortlessly.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--END-->
+
+
+      <!--CONTENT WORDS-->
+      <section class="info" >
+        <div class="container">
+
+            <div class="row">
+              <div class="col-md-5 align-self-center">
+                <img src="img-content-3.png" class="w-100" alt="">
+              </div>
+
+                <div class="content-right col-md-7">
+                    <div class="copy">
+                        <div class="text-hero-bold align-self-center">
+                            <h1 class="text-black fw-bold display-5 mb-4">Personalized <br> Investment Plan</h1>
+                        </div>
+
+                        <div class="text-hero-regular text-large" data-aos="fade-up" data-aos-duration="1000">Unlock the full potential of your investments with a FREE personalized investment plan tailored specifically to your financial goals and risk tolerance. 
+                        </div>  
+                    </div>
+                </div>  
+            </div>
+          </div>
+        </div>
+    </section>
+    <!--END-->
+
+                
+            <!--THREE STEPS-->
+  <div class="three-steps p-5">
+    <div class="fw-bold display-5 mb-5 text-center">
+      How Easy in just 3 Steps!
+    </div>
+    <section class="content-card">
+    <div class="container d-flex cards-wrapper">
+      <div class="row gy-3">
+
+        <div class="col-md-4" >
+          <div class="card swipe-order-done " data-aos="fade-in" >
+            <img src="swipe.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text fw-bold text-med ">Swipe</p>
+              <p class="swipe card-text text-sm text-sm-step text-hero-regular" style="padding-bottom: 70px;">Invest in only a swipe! Discover and select your ideal stocks with just a simple swipe. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card " data-aos="fade-in" data-aos-duration="2000">
+            <img src="order.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text fw-bold text-med ">Order</p>
+              <p class="card-text text-sm text-sm-step text-hero-regular" style="padding-bottom: 70px;">Specify how much you want to invest and your preferences, and we'll handle everything else.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card " data-aos="fade-in" data-aos-duration="3000">
+            <img src="done.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text fw-bold text-med ">Done!</p>
+              <p class="done card-text text-sm text-sm-step text-hero-regular" style="padding-bottom: 70px;">Investing made simple. Sit back and relax as your order is executed seamlessly. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="btn-getstarted" data-aos="zoom-in">
+    <button class="btn btn-getstarted btn-lg mt-5 fw-bold ps-5 pe-5 pt-2 pb-2" type="button" onclick="alert('Stay Tuned For More!')">GET STARTED</button>
+  </div> 
+  </div>
+  <!--END-->
+
+
+  <!--AS FEATURED IN-->
+  <div class="container">
+    <div class="text-featured text-center fw-bold mb-5">
+      As Featured in
+    </div>
+    <div class="container text-center" data-aos="zoom-in" data-aos-duration="1000">
+      <div class="row align-items-center gy-3">
+        <div class="col-md-3 col-sm-6 col-6">
+          <img class="img-techinasia" src="techinasia.png" alt="">
+        </div>
+        <div class="col-md-3 col-sm-6 col-6">
+          <img class="img-persegi" src="CNN_Indonesia.svg" alt="">
+        </div>
+        <div class="col-md-3 col-sm-6 col-6">
+          <img class="img-dailysocial" src="DailySocial.png" alt="">
+        </div>
+        <div class="col-md-3 col-sm-6 col-6">
+          <img class="img-persegi" src="dealstreetasia.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--END-->
+
+
+  <!--LAST CONTENT-->
+  <div class="container" data-aos="fade-in" data-aos-duration="1000">
+    <div class="word text-center">
+      <p class="fw-bold display-5 mb-5">Learn First with Virtual Trading</p>
+      <p class="text-large text-hero-regular">You can practice and test your investment strategy risk-free with 100 million virtual money.
+      </p>
+      <div data-aos="zoom-in" data-aos-duration="1000">
+        <img class="img-thumbnail" src="img-virtualtrading.png" alt="">
+      </div>
+      <p class="text-large text-hero-regular" data-aos="fade-in">Register now and join tens of thousands of other investors.
+      </p>
+      <div class="btn-getstarted" data-aos="fade-in">
+        <button class="btn btn-getstarted btn-lg mt-5 fw-bold ps-5 pe-5 pt-2 pb-2" type="button" onclick="alert('Coming Soon!')">INVEST NOW</button>
+      </div> 
+      <p class="fs-6 mt-5 text-hero-regular" data-aos="fade-in">By clicking the button above, you are agreeing to Finbit's Privacy Policy & Terms of Service.
+      </p>
+    </div>
+  </div>
+  <!--END-->
+
+
+<!--FOOTER-->
+<div id="contact"></div>
+  <footer class="text-black pt-5 pb-4 mt-5">
+    <div class="container mx-auto p-5">
+      <div class="row">
+
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold theme-text">Finbit</h5>
+          <p>Finbit is a prominent stock investment company, known for its leading position in the financial industry. Salaree offers a wide range of tailored investment solutions for individuals and institutions.</p>
+        </div>
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold theme-text">Services</h5>
+          <p>
+            <a href="#" class="text-black" style="text-decoration: none;">Portofolio</a>
+          </p>
+          <p>
+            <a href="#" class="text-black" style="text-decoration: none;">Mutual funds</a>
+          </p>
+          <p>
+            <a href="#" class="text-black" style="text-decoration: none;">Financial Planning</a>
+          </p>
+        </div>
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold theme-text">Link</h5>
+          <p>
+            <a href="#" class="text-black" style="text-decoration: none;">Home</a>
+          </p>
+          <p>
+            <a href="#" class="text-black" style="text-decoration: none;">Services</a>
+          </p>
+          <p>
+            <a href="#" class="text-black" style="text-decoration: none;">Contact Us</a>
+          </p>
+          <p>
+            <a href="#" class="text-black" style="text-decoration: none;">About Us</a>
+          </p>
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold theme-text">Contact</h5>
+          <p>
+            <i class="fas fa-home mr-3"></i><span class="ps-3">Indonesia, Bogor, 16969</span>
+          </p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i><span class="ps-3">Contact@finbit.com</span>
+          </p>
+          <p>
+            <i class="fas fa-phone mr-3"></i><span class="ps-3">+62 8889 7776</span>
+          </p>
+        </div>
+
+        </div>
+        <br>
+       <br>
+          <div class="row align-items-center">
+            <div class="mx-auto p-2" style="width: 400px;">
+              <p>Copyright ©2021 All rights reserved by:
+                <a href="#" style="text-decoration: none;">
+                  <strong class="theme-text">Finbit</strong>
+                </a>
+              </p>
+       
+          </div>
+      </div>
+    </div>
+      
+    </div>
+  </footer>
+  <!--END-->
+  
+  <!--LOGO FOOTER-->
+<div class="container">
+  <div class="container text-center mt-5 mb-5 justify-content-center">
+    <div class="row gy-3 align-items-center justify-content-center">
+      <div class="col-xl-2 col-md-6 col-sm-6 col-6">
+        <img class="logo1 img-logo" src="logo-idx.svg" alt="">
+      </div>
+      <div class="col-xl-2 col-md-6 col-sm-6 col-6">
+        <img class="logo2 img-logo" src="logo-idclear.svg" alt="">
+      </div>
+      <div class="col-xl-2 col-md-6 col-sm-6 col-6">
+        <img class="logo3 img-logo" src="logo-ksei.svg" alt="">
+      </div>
+      <div class="col-xl-2 col-md-6 col-sm-6 col-6">
+        <img class="logo4 img-logo" src="logo-sipf.svg" alt="">
+      </div>
+      <div class="col-xl-2 col-md-6 col-sm-6 col-6">
+        <img class="logo5 img-logo" src="logo-3p.svg" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+<!--END-->
+
+  <!--Suggestion Box-->
+  <div>
+  <div class="wrapper">
+    <p class="text-center text-large font-weight-bold pt-5 text-suggestion">Leave Your Suggestion Here</p>
+  <div class="suggest">
+    <form>
+    <div class="form-group input-text">  
+      <input id="username" name="username" class="form-control text-hero-regular" type="text" placeholder="Insert Username">
+  </div>
+  <div class="form-group input-text">
+  <input id="email" name="email" class="form-control text-hero-regular" type="text" placeholder="Insert Email">
+  </div>
+  <div class="form-group input-text">
+  <input id="suggest" name="suggest" class="form-control text-hero-regular mb-5 pb-5" type="text" placeholder="Insert Suggestion">
+  <p id="errorMessage" hidden></p>
+  <center>
+  <input class="btn btn-success mb-5" type="submit" value="Submit" style="width:50%">
+</center>
+  </form>
+  </div>
+</div>
+</div>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  </body>
+  </html>

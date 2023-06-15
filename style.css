@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Poppins:wght@200;300;500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --main-color: #00AB9B;
+    --font-weight-light: 300;
+}
+
+.text-hero-regular{
+    font-weight: var(--font-weight-light);
+}
+
+.theme-text{
+    color: var(--main-color);
+}
+
+.act{
+    color: var(--main-color) !important;
+}
+
+.navbar{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.navbar ul li a:hover{
+    color: var(--main-color) !important;
+}
+
+.btn{
+    background: var(--main-color);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+}
+
+.btn:hover{
+    background: #03D9C4;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+}
+
+.offcanvas-title{
+    color: var(--main-color);
+}
+
+/*.header{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}*/
+
+.middle{
+    height: 75vh;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-inner{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.carousel-item{
+    padding: 100px;
+}
+
+.carousel-item p{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.cards-wrapper{
+    column-gap: 15px;
+}
+
+.carousel-caption{
+    color: black;
+}
+
+.img-store{
+    width: 167px;
+    height: 53px;
+}
+
+.img-store:hover{
+    transform: scale(1.03);
+}
+
+.card{
+    border: 0;
+}
+
+.card-text{
+    text-align: center;
+}
+
+section.content-text{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.img-content-info{
+    width: 34px;
+    height: 14px;
+}
+
+section.content-vision{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.three-steps{
+    background-color: #E7EFEC;
+}
+
+.three-steps{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.btn-getstarted{
+    text-align: center;
+}
+
+.content-fee{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.text-commission-fee{
+    margin-bottom: 85px;
+}
+
+.text-fee{
+    font-size: 25px;
+    text-align: center;
+}
+
+.text-number{
+    color: var(--main-color);
+    font-size: 65px;
+}
+
+.img-techinasia{
+    width: 200px;
+    height: 50px;
+}
+
+.img-persegi{
+    width: 70px;
+    height: 70px;
+}
+
+.img-dailysocial{
+    width: 175px;
+    height: 45px;
+}
+
+.text-featured{
+    font-size: 25px;
+}
+
+.word{
+    margin-top: 150px;
+}
+
+.img-thumbnail{
+   border: 0px;
+}
+
+footer{
+    background-color: #fbfbfb;
+}
+
+.img-logo{
+    filter: saturate(0);
+}
+
+
+.wrapper{
+    background-color: #ffff;
+}
+
+.suggest{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 400px;
+    height: auto;
+    padding: 20px;
+}
+
+.text-suggestion{
+    color: gray;
+}
+
+#errorMessage{
+    text-align: center;
+    color: red;
+    font-size: 12px;
+    padding-top: 12px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.btn-success{
+    margin-top: 12px;
+}
+
+
+
+/* mobile ver only */
+@media only screen and (max-width: 576px){
+    .middle{
+        width: 100%;
+        text-align: center;
+    }
+
+    .img-store{
+        max-width: 110px;
+        max-height: 33px;
+    }
+
+    .img-store:hover{
+        transform: scale(1.03);
+    }
+
+    .content-right{
+        text-align: center;
+    }
+
+    .img-techinasia{
+        max-width: 150px;
+        max-height: 38px;
+    }
+    
+    .img-persegi{
+        max-width: 50px;
+        max-height: 50px;
+    }
+    
+    .img-dailysocial{
+        max-width: 100px;
+        max-height: 25px;
+    }
+
+    .logo1{
+        max-width: 70px;
+        max-height: 95px;
+    }
+
+    .logo2{
+        max-width: 100px;
+        max-height: 25px;
+    }
+
+    .logo3{
+        max-width: 180px;
+        max-height: 45px;
+    }
+
+    .logo4{
+        max-width: 130px;
+        max-height: 35px;
+    }
+
+    .logo5{
+        max-width: 60px;
+        max-height: 65px;
+    }
+
+    #email{
+        font-size: 12px;
+    }
+
+    #username{
+        font-size: 12px;
+    }
+    
+    #suggest{
+        font-size: 12px;
+    }
+}
+
+
+
+/* desktop ver only */
+@media only screen and (max-width: 992px){
+
+
+    .img-store{
+        max-width: 110px;
+        max-height: 33px;
+    }
+
+    .img-store:hover{
+        transform: scale(1.03);
+    }
+
+    .content-right{
+        text-align: center;
+    }
+
+    .text-large{
+        font-size: 17px;
+    }
+
+    .text-med{
+        font-size: 24px;
+    }
+
+    .text-sm{
+        font-size: 15px;
+    }
+
+    .text-sm-step{
+        font-size: 12px;
+        
+    }
+
+    .done{
+        padding-bottom: 50px;
+    }
+
+    .text-fee{
+        font-size: 20px;
+    }
+
+    
+}
+
+@media only screen and (min-width: 1200px){
+
+
+    .content-right{
+        align-self : center;
+    }
+
+    .text-large{
+        font-size: 20px;
+    }
+    
+    .text-med{
+        font-size: 30px;
+    }
+
+    .text-sm{
+        font-size: 20px;
+    }
+}
+
+
+
+/* tablet ver only */
+@media only screen and (max-width: 768px){
+    .middle{
+        width: 100%;
+        text-align: center;
+    }
+
+    .img-store{
+        max-width: 110px;
+        max-height: 33px;
+    }
+
+    .img-store:hover{
+        transform: scale(1.03);
+    }
+
+    .content-right{
+        text-align: center;
+    }
+
+    .text-sm{
+        font-size: 18px;
+    }
+
+    .btn-getstarted{
+        font-size: 19px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 280px){
+    
+    .text-med{
+        font-size: 20px;
+    }
+
+    .text-large{
+        font-size: 15px;
+    }
+
+    .text-sm{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .text-sm{
+        font-size: 14px;
+    }
+
+    .text-med{
+        font-size: 20px;
+    }
+
+    .btn-getstarted{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .btn-getstarted{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (width: 768px){
+    .img-hero{
+       margin-left: 200px; 
+    }
+}

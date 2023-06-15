@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*Navbar*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color: #00AB9B;
+}
+
+.theme-text{
+    color: var(--main-color);
+}
+
+.act{
+    color: var(--main-color) !important;
+}
+
+.navbar{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar ul li a:hover{
+    color: var(--main-color) !important;
+}
+
+.btn{
+    background: var(--main-color);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+}
+
+.btn:hover{
+    background: #03D9C4;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+}
+
+.offcanvas-title{
+    color: var(--main-color);
+}
+
+.header{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.middle{
+    height: 75vh;
+    display: flex;
+    align-items: center;
+}
+
+/*Forms*/
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-color: #f1f0f0;
+}
+
+.forms{
+    width: 360px;
+    height: auto;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 5px 7px 15px 5px #b9b6b6;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-group, .form-check{
+    font-size: 12px;
+}
+
+.form-check-label{
+    padding-right: 90px;
+    padding-left: 10px;
+}
+.login form input[type="submit"]{
+    font-size: 15px;
+    margin-bottom: 10px;
+    background-color: #00AB9B;
+}
+
+.fpass{
+    text-decoration: none;
+    color: blue;
+}
+
+.signup{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: black;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.span{
+    color: blue;
+    text-decoration: none;
+}
+
+.google{
+    margin: 5px;
+    border-radius: 10px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.facebook{
+    margin: 5px;
+    border-radius: 10px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #3b5998;
+    color: white;
+}
+
+#errorMessage{
+    text-align: center;
+    color: red;
+    font-size: 14px;
+    padding-top: 10px;
+}
+/*Mobile*/
+@media only screen and (max-width:576px){
+    .title-login{
+        font-size: 15px;
+    }
+
+    .input-text{
+        width: 200px;
+    }
+
+    #email{
+        font-size: 12px;
+    }
+
+    #password{
+        font-size: 12px;
+    }
+
+    .form-check-label{
+        font-size: 10px;
+    }
+
+    .fpass{
+        font-size: 10px;
+    }
+
+    .btn-success{
+        width: 20px;
+    }
+
+    .signup, .span{
+        font-size: 12px;
+    }
+}
